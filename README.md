@@ -28,6 +28,7 @@ Navigate to `AuthN > OAuth Server`.
 > If the app is running on a different host or port number, the `Allowed Redirect URL` will need to be updated to match your setup.
 
 Copy and note the `Client ID` for the OAuth Client, this is the CLIENT_ID used below.
+
 Note the domain from the Metadata endpoint under Configuration Details. This will be used as the PROJECT_DOMAIN below.
 
 
