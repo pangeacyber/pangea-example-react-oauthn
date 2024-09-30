@@ -16,15 +16,6 @@ If you don't already have an account, signup at https://console.pangea.cloud/
 
 Create a project and enable the AuthN Service in the Pangea Console.
 
-> [!IMPORTANT]
-> Configure a Redirect Setting for your project in Pangea Console.
-> - Navigate to the `AuthN` service, `General > Redirect Settings`
-> - Click `+ Redirect`
-> - Type `http://localhost:3001` in the URL input and click `Save`
-
-Note the following field in the `AuthN > Overview` section.
-- Domain: this is the PANGEA_DOMAIN
-
 Navigate to `AuthN > OAuth Server`.
 - Click the `+ OAuth Client` button on the right.
 - Enter a name for the client.
