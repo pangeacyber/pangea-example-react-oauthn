@@ -42,6 +42,7 @@ REACT_APP_PROJECT_DOMAIN="{PROJECT_DOMAIN}"
 
 > [!IMPORTANT]
 > The PROJECT_DOMAIN just be only the domain part of the Metadata Endpoint, no protocol or path
+> 
 > i.e. `pdn-xxxxxxxxxxxxxx.login.dev.aws.pangea.cloud`
 
 
