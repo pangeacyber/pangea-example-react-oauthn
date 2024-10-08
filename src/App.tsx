@@ -1,28 +1,28 @@
 import { useNavigate } from "react-router-dom";
-import { AuthProvider, AppState } from "@pangeacyber/react-oauth";
+import { AuthProvider, AppState, ClientConfig } from "@pangeacyber/react-oauth";
 
 import Router from "@src/components/Router";
 import './scss/styles.scss';
 
 const CLIENT_ID = process.env.REACT_APP_CLIENT_ID || "";
-const PROJECT_DOMAIN = process.env.REACT_APP_PROJECT_DOMAIN || "";
+const METADATA_URL = process.env.REACT_APP_METADATA_URL || "";
 
 const App = () => {
   const navigate = useNavigate();
 
   const handleLogin = (appData: AppState) => {
-    console.log('handle login', appData.returnPath)
     navigate(appData.returnPath);
   };
 
-  const authConfig = {
+  const authConfig: ClientConfig = {
     clientId: CLIENT_ID,
-    domain: PROJECT_DOMAIN,
-    redirectUri: "http://localhost:3001",
+    metadataUrl: METADATA_URL,
+    callbackUri: "http://localhost:3001",
     onLogin: handleLogin,
+    loadMetadata: true,
   };
 
-  if (!authConfig.clientId || !authConfig.domain) {
+  if (!authConfig.clientId || !authConfig.metadataUrl) {
     return (
       <html lang="en">
         <head />
@@ -41,7 +41,7 @@ const App = () => {
       config={authConfig}
       cookieOptions={{
         useCookie: true,
-        cookieName: "pangea-sample"
+        tokenCookieName: "pangea-sample",        
       }}
     >
       <Router />

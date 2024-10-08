@@ -22,9 +22,6 @@ Create a project and enable the AuthN Service in the Pangea Console.
 > - Click `+ Redirect`
 > - Type `http://localhost:3001` in the URL input and click `Save`
 
-Note the following field in the `AuthN > Overview` section.
-- Domain: this is the PANGEA_DOMAIN
-
 Navigate to `AuthN > OAuth Server`.
 - Click the `+ OAuth Client` button on the right.
 - Enter a name for the client.
@@ -33,11 +30,11 @@ Navigate to `AuthN > OAuth Server`.
 - Enter an `Allowed Redirect URL` of `http://localhost:3001`, and press enter.
 - Click Save.
 
+
 > [!IMPORTANT]
 > If the app is running on a different host or port number, the `Allowed Redirect URL` will need to be updated to match your setup.
 
-Copy and note the `Client ID` for the OAuth Client, this is the CLIENT_ID used below.
-Note the domain from the Metadata endpoint under Configuration Details. This will be used as the PROJECT_DOMAIN below.
+Copy and note the `Client ID` for the OAuth Client created above. This is the CLIENT_ID used below. Copy the the `Metadata Endpoint` from the OAuth Server Configuration Details. This is the METADATA_URL used below.
 
 
 ### Configure environment variables
@@ -47,11 +44,7 @@ Note the domain from the Metadata endpoint under Configuration Details. This wil
 
 Set the following values in .env.local
 REACT_APP_CLIENT_ID="{CLIENT_ID}"
-REACT_APP_PROJECT_DOMAIN="{PROJECT_DOMAIN}"
-
-> [!IMPORTANT]
-> The PROJECT_DOMAIN just be only the domain part of the Metadata Endpoint, no protocol or path
-> i.e. `pdn-xxxxxxxxxxxxxx.login.dev.aws.pangea.cloud`
+REACT_APP_METADATA_URL="{METADATA_URL}"
 
 
 ### Start the server

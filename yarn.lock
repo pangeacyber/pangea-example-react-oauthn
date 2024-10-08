@@ -2356,12 +2356,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pangeacyber/oauth-js@npm:^0.0.1-beta":
-  version: 0.0.1-beta
-  resolution: "@pangeacyber/oauth-js@npm:0.0.1-beta"
+"@pangeacyber/oauth-js@npm:0.0.3-beta":
+  version: 0.0.3-beta
+  resolution: "@pangeacyber/oauth-js@npm:0.0.3-beta"
   dependencies:
     jose: "npm:^5.9.3"
-  checksum: 10c0/d89203ea2f5d5d030e2b3cca7ea7336a95859e72a2f249ec4df60fbedddf6f5aa04296425aca692fdbfb3829073ec9b42c2ed6e6faae2969cfb0e2ef4fb6c5e5
+  checksum: 10c0/2ae667b5539491f5217399b607c7ee179d0cbd80e164d52e8914bc1a3b3464216bf9d58c55e379d949c89d96a09369cc6915a62d0cb454f091bb19034bb31d1b
   languageName: node
   linkType: hard
 
@@ -2372,7 +2372,7 @@ __metadata:
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-proposal-private-property-in-object": "npm:^7.21.11"
     "@craco/craco": "npm:^7.1.0"
-    "@pangeacyber/react-oauth": "npm:^0.0.2-beta"
+    "@pangeacyber/react-oauth": "npm:^0.0.3-beta"
     "@testing-library/jest-dom": "npm:^5.17.0"
     "@testing-library/react": "npm:^13.4.0"
     "@testing-library/user-event": "npm:^13.5.0"
@@ -2393,14 +2393,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@pangeacyber/react-oauth@npm:^0.0.2-beta":
-  version: 0.0.2-beta
-  resolution: "@pangeacyber/react-oauth@npm:0.0.2-beta"
+"@pangeacyber/react-oauth@npm:^0.0.3-beta":
+  version: 0.0.3-beta
+  resolution: "@pangeacyber/react-oauth@npm:0.0.3-beta"
   dependencies:
-    "@pangeacyber/oauth-js": "npm:^0.0.1-beta"
+    "@pangeacyber/oauth-js": "npm:0.0.3-beta"
   peerDependencies:
     react: ">=17"
-  checksum: 10c0/9062d99e64a6afe61b537c4eae860b21e746254feb876d6072f2e1fb9ed87ff55b8d3d1412160e6bdd8f6dd57c005739fc59de9e08fe31010461fba8904e7d1a
+  checksum: 10c0/b1fc8eb52d5f38152a223bf34ac99a9ebba0eade2c4a20adeb4f321b7e62ddd2c6c78ff68ff197f1d2760e81995902ed0bbd4960d80967ba1b4f17e43744c23b
   languageName: node
   linkType: hard
 
