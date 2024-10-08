@@ -34,7 +34,9 @@ Navigate to `AuthN > OAuth Server`.
 > [!IMPORTANT]
 > If the app is running on a different host or port number, the `Allowed Redirect URL` will need to be updated to match your setup.
 
-Copy and note the `Client ID` for the OAuth Client created above. This is the CLIENT_ID used below. Copy the the `Metadata Endpoint` from the OAuth Server Configuration Details. This is the METADATA_URL used below.
+Copy and note the `Client ID` for the OAuth Client created above. This is the CLIENT_ID used below. 
+
+Copy the the `Metadata Endpoint` from the OAuth Server Configuration Details. This is the METADATA_URL used below.
 
 
 ### Configure environment variables
