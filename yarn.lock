@@ -2325,7 +2325,7 @@ __metadata:
     "@types/node": "npm:^22.7.8"
     "@types/react": "npm:^18.3.11"
     "@types/react-dom": "npm:^18.3.1"
-    jose: "npm:^5.9.4"
+    jose: "npm:^5.9.6"
     postcss: "npm:^8.4.47"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
@@ -8733,7 +8733,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^5.9.3, jose@npm:^5.9.4":
+"jose@npm:^5.9.3, jose@npm:^5.9.6":
   version: 5.9.6
   resolution: "jose@npm:5.9.6"
   checksum: 10c0/d6bcd8c7d655b5cda8e182952a76f0c093347f5476d74795405bb91563f7ab676f61540310dd4b1531c60d685335ceb600571a409551d2cbd2ab3e9f9fbf1e4d
