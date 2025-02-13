@@ -2315,7 +2315,7 @@ __metadata:
     "@types/react": "npm:^18.3.18"
     "@types/react-dom": "npm:^18.3.5"
     jose: "npm:^5.9.6"
-    postcss: "npm:^8.5.1"
+    postcss: "npm:^8.5.2"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
     react-router-dom: "npm:^6.29.0"
@@ -11060,7 +11060,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.3.5, postcss@npm:^8.4.33, postcss@npm:^8.4.4, postcss@npm:^8.4.47, postcss@npm:^8.5.1":
+"postcss@npm:^8.3.5, postcss@npm:^8.4.33, postcss@npm:^8.4.4, postcss@npm:^8.4.47, postcss@npm:^8.5.2":
   version: 8.5.2
   resolution: "postcss@npm:8.5.2"
   dependencies:
