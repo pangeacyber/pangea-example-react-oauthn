@@ -45,8 +45,10 @@ Copy the the `Metadata Endpoint` from the OAuth Server Configuration Details. Th
 ```
 
 Set the following values in .env.local
+```
 REACT_APP_CLIENT_ID="{CLIENT_ID}"
 REACT_APP_METADATA_URL="{METADATA_URL}"
+```
 
 
 ### Start the server
