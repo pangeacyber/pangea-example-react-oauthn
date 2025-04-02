@@ -2310,7 +2310,7 @@ __metadata:
     "@testing-library/user-event": "npm:^14.6.1"
     "@types/babel__core": "npm:^7.20.5"
     "@types/jest": "npm:^29.5.14"
-    "@types/node": "npm:^22.13.13"
+    "@types/node": "npm:^22.13.14"
     "@types/react": "npm:^18.3.20"
     "@types/react-dom": "npm:^18.3.5"
     jose: "npm:^6.0.10"
@@ -3140,7 +3140,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^22.13.13":
+"@types/node@npm:^22.13.14":
   version: 22.13.14
   resolution: "@types/node@npm:22.13.14"
   dependencies:
