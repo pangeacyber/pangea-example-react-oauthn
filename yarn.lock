@@ -2309,7 +2309,7 @@ __metadata:
     "@types/babel__core": "npm:^7.20.5"
     "@types/jest": "npm:^29.5.14"
     "@types/node": "npm:^22.15.21"
-    "@types/react": "npm:^18.3.22"
+    "@types/react": "npm:^18.3.23"
     "@types/react-dom": "npm:^18.3.7"
     jose: "npm:^6.0.11"
     postcss: "npm:^8.5.3"
@@ -3189,7 +3189,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.22":
+"@types/react@npm:^18.3.23":
   version: 18.3.23
   resolution: "@types/react@npm:18.3.23"
   dependencies:
