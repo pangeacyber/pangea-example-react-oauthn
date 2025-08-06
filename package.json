@@ -2,6 +2,7 @@
   "name": "@pangeacyber/pangea-example-react-oauthn",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "@pangeacyber/react-oauth": "^0.0.3-beta",
     "@testing-library/jest-dom": "^6.6.4",
