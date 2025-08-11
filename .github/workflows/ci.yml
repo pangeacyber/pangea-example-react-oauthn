@@ -36,7 +36,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22
+          node-version: 22.18.0
           cache: yarn
           cache-dependency-path: yarn.lock
 
@@ -58,7 +58,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4.4.0
         with:
-          node-version: 22
+          node-version: 22.18.0
           cache: yarn
           cache-dependency-path: yarn.lock
 
